@@ -1,0 +1,11 @@
+<textarea [(ngModel)]="text" cols="30" rows="10"></textarea>
+
+<section>
+  <p>{{ cpText1 }}</p>
+  <button clip="春江潮水连海平" (onClip)="onClip1($event)">Copy</button>
+</section>
+
+<section>
+  <p>{{ cpText2 }}</p>
+  <button [clip]="cpText2" (onClip)="onClip2($event)">Copy</button>
+</section>

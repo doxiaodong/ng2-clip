@@ -1,0 +1,16 @@
+.DS_Store
+
+.vscode/
+
+node_modules/
+npm-debug.log
+
+dist/
+docs/
+
+*.ts
+!*.d.ts
+config/
+scripts/
+server/
+Makefile

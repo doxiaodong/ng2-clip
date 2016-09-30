@@ -17,7 +17,7 @@
     "clean": "rm -rf docs",
     "start": "npm run server:dev:hmr"
   },
-  "peerDependencies": {
+  "dependencies": {
     "clipboard": "^1.5.12"
   },
   "devDependencies": {

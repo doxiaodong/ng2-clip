@@ -5,7 +5,7 @@
 
 # Useage
 
-* install `npm i ng2-clip` --save-dev
+* install `npm i ng2-clip --save`
 
 ```typescript
 import { NgModule } from '@angular/core

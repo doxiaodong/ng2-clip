@@ -1,3 +1,8 @@
+[![Build Status](https://img.shields.io/travis/doxiaodong/ng2-clip.svg?style=flat-square)](https://travis-ci.org/doxiaodong/ng2-clip)
+[![Downloads](https://img.shields.io/npm/dt/ng2-clip.svg?style=flat-square)](https://www.npmjs.com/package/ng2-clip)
+[![Versions](https://img.shields.io/npm/v/ng2-clip.svg?style=flat-square)]()
+[![License](https://img.shields.io/npm/l/ng2-clip.svg?style=flat-square)]()
+
 # Copy to clipboard using Angular and clipboard.js
 
 # demo

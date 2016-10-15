@@ -7,8 +7,7 @@
     "sourceMap": true,
     "moduleResolution": "node",
     "baseUrl": "./src",
-    "paths": {
-    },
+    "paths": {},
     "types": [
       "core-js",
       "node",
@@ -24,5 +23,7 @@
   },
   "compileOnSave": false,
   "buildOnSave": false,
-  "atom": { "rewriteTsconfig": false }
+  "atom": {
+    "rewriteTsconfig": false
+  }
 }

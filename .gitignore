@@ -13,3 +13,5 @@ upload.sh
 *.d.ts
 *.js.map
 !docs/**/*.js.map
+
+docs/CNAME

@@ -13,7 +13,7 @@
 * install `npm i ng2-clip --save`
 
 ```typescript
-import { NgModule } from '@angular/core
+import { NgModule } from '@angular/core'
 import { ClipModule } from 'ng2-clip'
 @NgModule({
   imports: [

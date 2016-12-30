@@ -7,7 +7,7 @@ import {
   OnInit,
   OnDestroy
 } from '@angular/core'
-import Clipboard = require('clipboard')
+import * as Clipboard from 'clipboard'
 
 @Directive({
   selector: '[clip]'
@@ -21,7 +21,7 @@ export class ClipDirective implements OnInit, OnDestroy {
   constructor(private _ele: ElementRef) { }
 
   ngOnInit() {
-    const option: ClipboardOptions = {
+    const option: Clipboard.Options = {
       text: (ele) => {
         return this.content
       }

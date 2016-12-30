@@ -14,3 +14,5 @@ config/
 scripts/
 server/
 Makefile
+
+!*.metadata.json

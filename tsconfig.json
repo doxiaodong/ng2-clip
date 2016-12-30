@@ -21,6 +21,10 @@
     "forkChecker": true,
     "useWebpackText": true
   },
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true
+  },
   "compileOnSave": false,
   "buildOnSave": false,
   "atom": {

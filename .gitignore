@@ -15,3 +15,5 @@ upload.sh
 !docs/**/*.js.map
 
 docs/CNAME
+
+*.metadata.json

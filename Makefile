@@ -16,5 +16,6 @@ build:
 	npm run build
 
 publish:
+	npm run ngc
 	tsc -d
 	npm publish --registry http://registry.npmjs.org

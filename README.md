@@ -6,7 +6,7 @@
 # Copy to clipboard using Angular and clipboard.js
 
 # demo
-  [http://ng2-clip.darlin.me](http://ng2-clip.darlin.me)
+  [https://doxiaodong.github.io/ng2-clip](https://doxiaodong.github.io/ng2-clip)
 
 # Useage
 

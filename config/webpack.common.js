@@ -11,17 +11,16 @@ function webpackConfig() {
     },
 
     resolve: {
-      // See: http://webpack.github.io/docs/configuration.html#resolve-extensions
       extensions: ['.ts', '.js']
 
     },
 
     module: {
-      loaders: [
+      rules: [
         // See: https://github.com/s-panferov/awesome-typescript-loader
-        { test: /\.ts$/, loader: 'awesome-typescript-loader', exclude: [/\.(spec|e2e)\.ts$/] },
+        { test: /\.ts$/, use: 'awesome-typescript-loader', exclude: [/\.(spec|e2e)\.ts$/] },
         // See: https://github.com/webpack/raw-loader
-        { test: /\.html$/, loader: 'raw-loader', exclude: [path.resolve(__dirname, 'server/index.html')] },
+        { test: /\.html$/, use: 'raw-loader', exclude: [path.resolve(__dirname, 'server/index.html')] }
       ]
     },
 

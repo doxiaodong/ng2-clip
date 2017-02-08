@@ -52,11 +52,10 @@
         "variable-declaration": "space"
       }
     ],
-    "ordered-imports": false,
-    "no-consecutive-blank-lines": true,
+    "ordered-imports": [false],
+    "no-consecutive-blank-lines": [true, 2],
     "no-construct": true,
     "no-debugger": true,
-    "no-duplicate-key": true,
     "no-duplicate-variable": true,
     "no-empty": false,
     "no-eval": true,
@@ -64,9 +63,7 @@
     "no-shadowed-variable": true,
     "no-string-literal": false,
     "no-switch-case-fall-through": true,
-    "no-unreachable": true,
     "no-unused-expression": true,
-    "no-unused-variable": true,
     "no-use-before-declare": true,
     "no-var-keyword": true,
     "no-var-requires": false,
@@ -75,10 +72,6 @@
     "triple-equals": [
       true,
       "allow-null-check"
-    ],
-    "use-strict": [
-      true,
-      "check-module"
     ],
 
     "eofline": true,
@@ -95,7 +88,6 @@
 
     "class-name": true,
     "jsdoc-format": true,
-    "no-constructor-vars": false,
     "one-line": [
       true,
       "check-open-brace",
